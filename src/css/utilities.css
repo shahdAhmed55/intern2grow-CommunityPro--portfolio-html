@@ -21,7 +21,7 @@ h2::selection{
 
 /* task 1 */
 img,
-a {
+a,button {
   user-select: none;
 }
 
