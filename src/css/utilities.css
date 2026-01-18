@@ -160,3 +160,20 @@ a,button {
       opacity: 1;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+  .syntaxhighlighter {
+    background-color: #000 !important
+  }
+
+  .syntaxhighlighter .line.alt1 {
+    background-color: #000 !important
+  }
+
+  .syntaxhighlighter .line.alt2 {
+    background-color: #000 !important
+  }
+
+  .syntaxhighlighter .line {
+    background-color: #000 !important
+  }}
