@@ -279,7 +279,10 @@ body {
   }
 
   .nav-menu.active {
-    right: 20px;
+    right: 50%;
+    transform: translateX(50%);
+    width: 90%;
+
   }
 
   .nav-menu .nav-link {
@@ -291,6 +294,12 @@ body {
     margin-bottom: 0.5rem;
     width: 100%;
   }
+
+  .nav-menu li:last-child {
+    margin-bottom: 15px;
+
+  }
+
 
   .nav-menu .btn {
     width: 100%;
@@ -305,7 +314,7 @@ body {
   }
 
   .hamburger.active {
-    border: 1px dotted gray;
+    border: 0;
   }
 
   .hamburger.active .bar:nth-child(2) {
