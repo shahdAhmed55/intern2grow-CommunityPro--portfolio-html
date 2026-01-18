@@ -12,9 +12,17 @@
 }
 
 h1::selection,
-h2::selection {
+h2::selection{
   color: #111;
   background: var(--primary-color);
+  /* webkit-user-select: text; */
+}
+
+
+/* task 1 */
+img,
+a {
+  user-select: none;
 }
 
 /* Buttons */
